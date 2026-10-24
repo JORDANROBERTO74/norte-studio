@@ -76,7 +76,7 @@ public/
 
 ## Configuration
 
-The only environment variable is `NEXT_PUBLIC_SITE_URL`, used for canonical URLs, `hreflang`, Open Graph and the sitemap. When it is unset, the app falls back to `https://norte-studio.vercel.app`.
+The only environment variable is `NEXT_PUBLIC_SITE_URL`, used for canonical URLs, `hreflang`, Open Graph and the sitemap. When it is unset, the app falls back to `https://norte-studio-omega.vercel.app`.
 
 ```bash
 NEXT_PUBLIC_SITE_URL=https://your-domain.com
@@ -91,7 +91,7 @@ The app deploys to Vercel with the default Next.js preset:
 3. Set `NEXT_PUBLIC_SITE_URL` to the production origin.
 4. Deploy.
 
-Live demo: <https://norte-studio.vercel.app>
+Live demo: <https://norte-studio-omega.vercel.app>
 
 ## Status and scope
 

@@ -3,7 +3,7 @@
  * Open Graph URLs. Set NEXT_PUBLIC_SITE_URL on the host (the Vercel production
  * domain, for example); the fallback keeps local builds pointing at the live site.
  */
-const FALLBACK_URL = "https://norte-studio.vercel.app";
+const FALLBACK_URL = "https://norte-studio-omega.vercel.app";
 
 function resolveSiteUrl(): string {
   const value = process.env.NEXT_PUBLIC_SITE_URL?.trim();
