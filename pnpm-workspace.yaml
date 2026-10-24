@@ -1,0 +1,7 @@
+# pnpm workspace configuration for Norte Studio.
+# unrs-resolver is pulled in by ESLint tooling. Its install script only
+# verifies/downloads a prebuilt napi binary, so it is safe to allow.
+allowBuilds:
+  unrs-resolver: true
+onlyBuiltDependencies:
+  - unrs-resolver
