@@ -2,7 +2,7 @@
 
 A bilingual marketing site for a fictional independent digital studio in Valencia: strategy, brand, web and product design.
 
-![Norte Studio homepage in English, with a dark hero, client list, case studies and metrics](docs/screenshot.webp)
+![Norte Studio homepage in English, with a deep-teal hero, client list, case studies and metrics](docs/screenshot.webp)
 
 ## What it is
 
@@ -13,7 +13,7 @@ It is a demo, not a product: every client, case study, article, person and metri
 ## Why this over a generic agency template
 
 - **Bilingual by default.** Two typed dictionaries, `/[locale]` routes, automatic browser-language detection, a manual switcher, localized dates and prices, and `hreflang` alternates.
-- **No remote assets.** Fonts are bundled at build time and every image is a local SVG, so the site renders without third-party requests.
+- **No remote assets.** Fonts are bundled at build time and every image is a self-hosted photograph, so the site renders without third-party requests.
 - **Small dependency surface.** Next.js, React and Tailwind CSS. No component kit, no animation library, no state manager.
 - **Content as data.** Case studies and articles live in `src/content`, so list and detail pages stay in sync and adding an item is a single typed edit.
 - **Accessibility baseline.** Skip link, labelled navigation and controls, semantic landmarks, visible focus states and a keyboard-usable mobile menu.
@@ -71,7 +71,7 @@ src/
   lib/                 # formatting, metadata, class names
   proxy.ts             # locale detection
 public/
-  images/              # self-hosted abstract artwork
+  images/              # self-hosted photography
 ```
 
 ## Configuration
