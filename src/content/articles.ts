@@ -14,7 +14,7 @@ export const articles: Article[] = [
     date: "2026-09-14",
     readingTime: 6,
     category: { en: "Product design", es: "Diseño de producto" },
-    image: "/images/article-calm.svg",
+    image: "/images/article-calm.jpg",
     body: {
       en: [
         "Every product wants a piece of your attention, and the result is a screen full of badges, banners and begging. The interfaces that survive that noise are not the loudest — they are the most legible.",
@@ -43,7 +43,7 @@ export const articles: Article[] = [
     date: "2026-07-02",
     readingTime: 8,
     category: { en: "Brand", es: "Marca" },
-    image: "/images/article-brand.svg",
+    image: "/images/article-brand.jpg",
     body: {
       en: [
         "Most brand guidelines fail the same way: they describe a logo and a palette but never teach the team how to decide. The moment a real decision appears, the PDF goes back on the shelf.",
@@ -72,7 +72,7 @@ export const articles: Article[] = [
     date: "2026-04-18",
     readingTime: 7,
     category: { en: "Strategy", es: "Estrategia" },
-    image: "/images/article-redesign.svg",
+    image: "/images/article-redesign.jpg",
     body: {
       en: [
         "A redesign looks cheap on a calendar and expensive on a balance sheet. The pixels ship in weeks; the trust, the rankings and the learned behaviour they replace took years to accumulate.",
@@ -101,7 +101,7 @@ export const articles: Article[] = [
     date: "2026-01-27",
     readingTime: 5,
     category: { en: "Craft", es: "Oficio" },
-    image: "/images/article-type.svg",
+    image: "/images/article-type.jpg",
     body: {
       en: [
         "Choose a typeface and you have chosen a tone of voice before a single word is written. A geometric sans sounds modern and a little cold; a humanist serif sounds warm and a little old. Neither is wrong, but both are a decision.",
@@ -130,7 +130,7 @@ export const articles: Article[] = [
     date: "2025-11-10",
     readingTime: 4,
     category: { en: "Studio", es: "Estudio" },
-    image: "/images/article-pitch.svg",
+    image: "/images/article-pitch.jpg",
     body: {
       en: [
         "For years we pitched the way everyone else did: sixty slides, a reveal, a polite room. Then we noticed the best projects never started with a pitch at all. They started with a question we could answer together.",
@@ -159,7 +159,7 @@ export const articles: Article[] = [
     date: "2025-08-05",
     readingTime: 6,
     category: { en: "Strategy", es: "Estrategia" },
-    image: "/images/article-measure.svg",
+    image: "/images/article-measure.jpg",
     body: {
       en: [
         "Ask what a redesign achieved and you will often hear about screens and delight. Ask what it moved and you will hear silence. The gap is not the design; it is the measurement.",

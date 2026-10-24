@@ -10,7 +10,7 @@ export const cases: CaseStudy[] = [
       en: ["Product strategy", "Product design", "Design system"],
       es: ["Estrategia de producto", "Diseño de producto", "Design system"],
     },
-    image: "/images/case-atlantica.svg",
+    image: "/images/case-atlantica.jpg",
     summary: {
       en: "A mobile banking app rebuilt around one idea: financial clarity, not dashboards.",
       es: "Una app de banca móvil reconstruida en torno a una idea: claridad financiera, no paneles de control.",
@@ -39,7 +39,7 @@ export const cases: CaseStudy[] = [
       en: ["Brand identity", "Ecommerce", "Art direction"],
       es: ["Identidad de marca", "Ecommerce", "Dirección de arte"],
     },
-    image: "/images/case-solera.svg",
+    image: "/images/case-solera.jpg",
     summary: {
       en: "A century-old winery that learned to sell direct without losing its cellar-door soul.",
       es: "Una bodega centenaria que aprendió a vender directo sin perder el alma de su cata.",
@@ -68,7 +68,7 @@ export const cases: CaseStudy[] = [
       en: ["Web design", "Development", "Booking experience"],
       es: ["Diseño web", "Desarrollo", "Experiencia de reserva"],
     },
-    image: "/images/case-marea.svg",
+    image: "/images/case-marea.jpg",
     summary: {
       en: "A booking flow that treats a room like a decision, not a form field.",
       es: "Un flujo de reserva que trata una habitación como una decisión, no como un campo de formulario.",
@@ -97,7 +97,7 @@ export const cases: CaseStudy[] = [
       en: ["Product design", "Brand identity", "Design system"],
       es: ["Diseño de producto", "Identidad de marca", "Design system"],
     },
-    image: "/images/case-nido.svg",
+    image: "/images/case-nido.jpg",
     summary: {
       en: "A learning platform teachers actually open, rebuilt for the people in the room.",
       es: "Una plataforma de aprendizaje que los docentes sí abren, reconstruida para quienes están en el aula.",
@@ -126,7 +126,7 @@ export const cases: CaseStudy[] = [
       en: ["Brand identity", "Art direction", "Web design"],
       es: ["Identidad de marca", "Dirección de arte", "Diseño web"],
     },
-    image: "/images/case-trazo.svg",
+    image: "/images/case-trazo.jpg",
     summary: {
       en: "A furniture studio that stopped sounding industrial and started sounding like a workshop.",
       es: "Un estudio de mobiliario que dejó de sonar industrial y empezó a sonar a taller.",
@@ -155,7 +155,7 @@ export const cases: CaseStudy[] = [
       en: ["Product design", "Design system", "Data visualization"],
       es: ["Diseño de producto", "Design system", "Visualización de datos"],
     },
-    image: "/images/case-viento.svg",
+    image: "/images/case-viento.jpg",
     summary: {
       en: "Turning a wall of logistics numbers into one calm, glanceable control room.",
       es: "Convertir un muro de números logísticos en una sala de control serena y legible de un vistazo.",
