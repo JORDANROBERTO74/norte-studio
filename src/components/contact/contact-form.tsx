@@ -102,7 +102,7 @@ export function ContactForm({ dict }: { dict: Dictionary }) {
 
       <button
         type="submit"
-        className="inline-flex h-12 items-center justify-center rounded-full bg-accent px-6 text-base font-medium text-paper transition hover:bg-[#d94d1c]"
+        className="inline-flex h-12 items-center justify-center rounded-full bg-accent px-6 text-base font-medium text-paper transition hover:bg-[#268076]"
       >
         {form.submit}
       </button>

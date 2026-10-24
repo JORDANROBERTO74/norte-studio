@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Fraunces, JetBrains_Mono, Space_Grotesk } from "next/font/google";
+import { Figtree, IBM_Plex_Mono, Spectral } from "next/font/google";
 import { notFound } from "next/navigation";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
@@ -9,21 +9,23 @@ import { getDictionary } from "@/i18n/get-dictionary";
 import { isLocale, locales } from "@/i18n/config";
 import "../globals.css";
 
-const fraunces = Fraunces({
+const spectral = Spectral({
   subsets: ["latin"],
-  variable: "--font-fraunces",
+  variable: "--font-spectral",
+  weight: ["400", "500", "600"],
   display: "swap",
 });
 
-const spaceGrotesk = Space_Grotesk({
+const figtree = Figtree({
   subsets: ["latin"],
-  variable: "--font-space-grotesk",
+  variable: "--font-figtree",
   display: "swap",
 });
 
-const jetbrainsMono = JetBrains_Mono({
+const plexMono = IBM_Plex_Mono({
   subsets: ["latin"],
-  variable: "--font-jetbrains-mono",
+  variable: "--font-ibm-plex-mono",
+  weight: ["400", "500"],
   display: "swap",
 });
 
@@ -96,7 +98,7 @@ export default async function LocaleLayout({
   return (
     <html
       lang={locale}
-      className={`${fraunces.variable} ${spaceGrotesk.variable} ${jetbrainsMono.variable}`}
+      className={`${spectral.variable} ${figtree.variable} ${plexMono.variable}`}
     >
       <body>
         <a

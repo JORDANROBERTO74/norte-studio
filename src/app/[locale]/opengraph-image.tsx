@@ -23,7 +23,7 @@ export default async function OpengraphImage({
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
-          backgroundColor: "#0D1013",
+          backgroundColor: "#102a2b",
           padding: "70px 80px",
           position: "relative",
           overflow: "hidden",
@@ -37,7 +37,7 @@ export default async function OpengraphImage({
             width: 560,
             height: 560,
             borderRadius: 999,
-            backgroundColor: "#F15A24",
+            backgroundColor: "#2f8f83",
             opacity: 0.14,
             display: "flex",
           }}
@@ -49,7 +49,7 @@ export default async function OpengraphImage({
               width: 22,
               height: 22,
               transform: "rotate(45deg)",
-              backgroundColor: "#F15A24",
+              backgroundColor: "#2f8f83",
               display: "flex",
             }}
           />
@@ -58,7 +58,7 @@ export default async function OpengraphImage({
               fontSize: 28,
               letterSpacing: 6,
               textTransform: "uppercase",
-              color: "#F5F2EB",
+              color: "#f4efe6",
               display: "flex",
             }}
           >
@@ -71,7 +71,7 @@ export default async function OpengraphImage({
             style={{
               fontSize: 120,
               lineHeight: 1,
-              color: "#F5F2EB",
+              color: "#f4efe6",
               fontFamily: "Georgia, serif",
               letterSpacing: -2,
               display: "flex",
@@ -85,7 +85,7 @@ export default async function OpengraphImage({
             style={{
               marginTop: 28,
               fontSize: 38,
-              color: "#F5F2EB",
+              color: "#f4efe6",
               opacity: 0.7,
               maxWidth: 780,
               display: "flex",
@@ -99,7 +99,7 @@ export default async function OpengraphImage({
           style={{
             display: "flex",
             fontSize: 26,
-            color: "#F5F2EB",
+            color: "#f4efe6",
             opacity: 0.5,
           }}
         >
